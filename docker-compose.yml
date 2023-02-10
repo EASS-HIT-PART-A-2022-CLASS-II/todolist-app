@@ -38,6 +38,6 @@ services:
       - todo
     container_name: todo-app-db
 
-  networks:
+ networks:
     todo:
       driver: bridge
