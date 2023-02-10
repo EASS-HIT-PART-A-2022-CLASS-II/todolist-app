@@ -2,6 +2,8 @@
 
 Get organized and keep track of all the tasks you need to do with the ToDo app
 
+# Image
+
 ![WhatsApp Image 2023-02-10 at 14 41 31](https://user-images.githubusercontent.com/80777610/218121100-8c803f68-9457-4451-bdba-08b7c817ff30.jpeg)
 
 ## Features
