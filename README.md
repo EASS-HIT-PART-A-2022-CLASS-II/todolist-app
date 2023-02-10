@@ -16,6 +16,10 @@ Using the app, you will be able to manage your tasks by:
 
 - Changing tasks status 
 
+## Demo
+
+https://user-images.githubusercontent.com/80777610/218121389-fc4f991b-417a-4614-a9c7-43200a6cfa2a.mp4
+
 ## How to run the app
 
 ### Instructions
