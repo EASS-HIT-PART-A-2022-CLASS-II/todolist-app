@@ -1,0 +1,43 @@
+version: "3.11"
+services:
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - todo
+    depends_on:
+      - database
+    container_name: todo-app-backend
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - todo
+    depends_on:
+      - backend
+    container_name: todo-app-frontend
+
+  database:
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: "db"
+      MYSQL_ROOT_PASSWORD: "root"
+    networks:
+      - todo
+    container_name: todo-app-db
+
+  networks:
+    todo:
+      driver: bridge
