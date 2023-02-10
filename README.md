@@ -22,6 +22,10 @@ https://user-images.githubusercontent.com/80777610/218121389-fc4f991b-417a-4614-
 
 ## How to run the app
 
+### Prerequisites
+
+Make sure you have Docker installed on your computer.
+
 ### Instructions
 
 1. Open CMD/Terminal and run the following command:
