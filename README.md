@@ -33,7 +33,7 @@ https://github.com/EASS-HIT-PART-A-2022-CLASS-II/todolist-app.git
 2. Then go inside the ToDo_App folder:
 
 ```
-cd ToDo_App
+cd todolist-app
 ```
 
 3. To start the app, run the following command:
