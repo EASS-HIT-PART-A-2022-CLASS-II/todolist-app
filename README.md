@@ -34,7 +34,7 @@ Make sure you have docker installed on your machine
 https://github.com/EASS-HIT-PART-A-2022-CLASS-II/todolist-app.git
 ```
 
-2. Then go inside the ToDo_App folder:
+2. Then go inside the todolist-app folder:
 
 ```
 cd todolist-app
