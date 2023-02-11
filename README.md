@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/80777610/218121389-fc4f991b-417a-4614-
 
 ### Prerequisites
 
-Make sure you have Docker installed on your computer.
+Make sure you have Docker installed on your computer
 
 ### Instructions
 
